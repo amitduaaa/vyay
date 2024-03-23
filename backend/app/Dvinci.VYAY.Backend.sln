@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dvinci.VYAY.Backend.Api", "src\Dvinci.VYAY.Backend.APi\Dvinci.VYAY.Backend.Api.csproj", "{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF85548F-E3AE-43FF-9840-D7A1677193AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dvinci.VYAY.Common", "src\Dvinci.VYAY.Common\Dvinci.VYAY.Common.csproj", "{17798831-7790-4E70-9975-81B2196ED78C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dvinci.VYAY.DataModel", "src\Dvinci.VYAY.DataModel\Dvinci.VYAY.DataModel.csproj", "{0FF048E1-18D7-48FA-8B7A-E30D1FB84189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dvinci.VYAY.DataAccess", "src\Dvinci.VYAY.DataAccess\Dvinci.VYAY.DataAccess.csproj", "{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvinci.VYAY.DomainLogic", "src\Dvinci.VYAY.DomainLogic\Dvinci.VYAY.DomainLogic.csproj", "{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17798831-7790-4E70-9975-81B2196ED78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17798831-7790-4E70-9975-81B2196ED78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17798831-7790-4E70-9975-81B2196ED78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17798831-7790-4E70-9975-81B2196ED78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF048E1-18D7-48FA-8B7A-E30D1FB84189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF048E1-18D7-48FA-8B7A-E30D1FB84189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF048E1-18D7-48FA-8B7A-E30D1FB84189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF048E1-18D7-48FA-8B7A-E30D1FB84189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE53CD6-A8A6-472C-AB47-29D1BA2C8FD6} = {AF85548F-E3AE-43FF-9840-D7A1677193AE}
+		{17798831-7790-4E70-9975-81B2196ED78C} = {AF85548F-E3AE-43FF-9840-D7A1677193AE}
+		{0FF048E1-18D7-48FA-8B7A-E30D1FB84189} = {AF85548F-E3AE-43FF-9840-D7A1677193AE}
+		{D844E6A3-5B8B-4501-BEBF-4BB4D16FAB8B} = {AF85548F-E3AE-43FF-9840-D7A1677193AE}
+		{01AF58FB-2FDA-4C4B-B26E-84A72CD0AECB} = {AF85548F-E3AE-43FF-9840-D7A1677193AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9AD2FB9-BBA9-4EA3-9221-1654A7DB14F2}
+	EndGlobalSection
+EndGlobal
